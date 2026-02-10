@@ -1,5 +1,4 @@
 /*
-
 Example 1:
 Input:
  s = "((()))"
@@ -18,7 +17,6 @@ Explanation:
  Primitive decomposition: "()" + "(()())" + "(())"
 After removing outermost parentheses: "" + "()()" + "()"
 Final result: "(()())()".
-
 */
 
 public class LT_1021_Remove_Outermost_Parentheses {
@@ -53,6 +51,7 @@ public class LT_1021_Remove_Outermost_Parentheses {
         System.out.println(answer);
     }
 }
+
 
 
 
