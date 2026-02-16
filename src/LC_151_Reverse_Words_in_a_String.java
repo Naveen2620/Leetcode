@@ -47,7 +47,6 @@ public class LC_151_Reverse_Words_in_a_String {
                 result.append(' ');
             }
         }
-
         return result.toString();
 
     }
