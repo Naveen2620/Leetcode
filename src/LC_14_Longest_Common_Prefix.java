@@ -1,3 +1,22 @@
+/*
+Example 1
+Input:
+ str = ["flower", "flow", "flight"]
+Output:
+ "fl"
+Explanation:
+ All strings in the array begin with the common prefix "fl".
+
+Example 2
+Input:
+ str = ["apple", "banana", "grape", "mango"]
+Output:
+ ""
+Explanation:
+ None of the strings share a common starting sequence, so the result is an empty string.
+*/
+
+
 public class LC_14_Longest_Common_Prefix {
 
     static String prefix(String[] str){
@@ -23,3 +42,4 @@ public class LC_14_Longest_Common_Prefix {
         System.out.println(prefix(str));
     }
 }
+
